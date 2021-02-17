@@ -14,8 +14,8 @@ class PageController extends Controller
         return view('about');
     }
     public function blog(Post $post) {
-        $posts = $post::all();
-        dd($posts);
-        return view('blog');
+        $posts = $post->all();
+        /* dd($posts); */
+        return view('blog', compact('posts'));
     }
 }

@@ -22,6 +22,8 @@
         </style>
     </head>
     <body>
-        <h1>Ciaone</h1>
+        <h1>Home</h1>
+        <a href="blog">Guarda i post</a>
+        <a href="about">About</a>
     </body>
 </html>
